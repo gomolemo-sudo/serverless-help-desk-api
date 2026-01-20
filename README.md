@@ -37,12 +37,4 @@ All interactions use JSON-based requests and responses.
 
 To create a new ticket, a POST request is sent to the `/tickets` endpoint. The request body must include a title and description.
 
-Example request body:
-
-```json
-{
-  "title": "Cannot access email",
-  "description": "Outlook fails to open on startup"
-}
-
 [Serverless_Help_Desk_Architecture.pdf](https://github.com/user-attachments/files/24733711/Serverless_Help_Desk_Architecture.pdf)
